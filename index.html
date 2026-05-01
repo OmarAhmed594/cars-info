@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login - Car Info Hub</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+
+<h1>🚗 Car Info Hub</h1>
+<p>Please Login First</p>
+
+<form class="login-form" onsubmit="login(event)">
+
+<input type="email" id="username" placeholder="Email" required>
+
+<input type="password" id="password" placeholder="Password" required>
+
+<button type="submit">Login</button>
+
+</form>
+
+<p id="error"></p>
+
+<p style="color:#999; font-size:14px;">
+Default Email: admin@gmail.com <br>
+Password: 1234
+</p>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

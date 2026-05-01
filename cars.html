@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cars Gallery - Car Info Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+  <h1>🚗 Cars Gallery</h1>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="cars.html">Cars</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+    <a href="index.html">Logout</a>
+  </nav>
+</header>
+
+<!-- ================= SEARCH ================= -->
+<input
+  type="text"
+  placeholder="Search cars..."
+  onkeyup="filterCars(this.value)"
+  class="search"
+>
+
+<!-- ================= CARS ================= -->
+<section class="cars">
+
+  <div class="card">
+    <img src="Images/1.jpg" alt="BMW M4">
+    <h3>BMW M4</h3>
+    <button onclick="show('BMW M4')">Details</button>
+  </div>
+
+  <div class="card">
+    <img src="Images/2.jpg" alt="Mercedes AMG GT">
+    <h3>Mercedes AMG GT</h3>
+    <button onclick="show('Mercedes AMG GT')">Details</button>
+  </div>
+
+  <div class="card">
+    <img src="Images/3.jpg" alt="Chevrolet Camaro">
+    <h3>Camaro</h3>
+    <button onclick="show('Chevrolet Camaro')">Details</button>
+  </div>
+
+  <div class="card">
+    <img src="Images/4.jpg" alt="Audi R8">
+    <h3>Audi R8</h3>
+    <button onclick="show('Audi R8')">Details</button>
+  </div>
+
+  <div class="card">
+    <img src="Images/5.jpg" alt="Ford Mustang">
+    <h3>Ford Mustang</h3>
+    <button onclick="show('Ford Mustang')">Details</button>
+  </div>
+
+  <div class="card">
+    <img src="Images/6.jpg" alt="Lamborghini Huracan">
+    <h3>Lamborghini Huracan</h3>
+    <button onclick="show('Lamborghini Huracan')">Details</button>
+  </div>
+
+  <div class="card">
+    <img src="Images/7.jpg" alt="Ferrari 488">
+    <h3>Ferrari 488</h3>
+    <button onclick="show('Ferrari 488')">Details</button>
+  </div>
+
+  <div class="card">
+    <img src="Images/8.jpg" alt="Porsche 911">
+    <h3>Porsche 911</h3>
+    <button onclick="show('Porsche 911')">Details</button>
+  </div>
+
+  <div class="card">
+    <img src="Images/9.jpg" alt="Nissan GTR">
+    <h3>Nissan GTR</h3>
+    <button onclick="show('Nissan GTR')">Details</button>
+  </div>
+
+  <div class="card">
+    <img src="Images/10.jpg" alt="McLaren 720S">
+    <h3>McLaren 720S</h3>
+    <button onclick="show('McLaren 720S')">Details</button>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
